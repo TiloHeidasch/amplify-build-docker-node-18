@@ -10,3 +10,4 @@ RUN curl -sL https://deb.nodesource.com/setup_18.x | bash
 # and install node 
 RUN apt-get install -y nodejs
 RUN apt-get install -y openssh-server
+RUN apt-get install -y git
