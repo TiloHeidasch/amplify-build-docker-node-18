@@ -1,4 +1,4 @@
-FROM amazonlinux:2
+FROM amazonlinux:2022
 
 RUN yum install -y gcc-c++ make 
 RUN curl -sL https://rpm.nodesource.com/setup_18.x | bash - 
